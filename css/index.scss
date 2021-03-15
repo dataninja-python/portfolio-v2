@@ -13,23 +13,23 @@ $hover-background: #C5C5C5;
 nav {
     // display: grid;
     // grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-    // overflow: hidden;
-    // position: relative;
+    overflow: hidden;
+    position: relative;
     background-color: $primary-nav;
     // grid-column-gap: 5px;
     // border: 1px solid red;
     // padding: 2px;
     // display: flex;
-    justify-content: center;
+    // justify-content: center;
 }
 
 nav a {
     color: $primary-a;
-    display: block;
-    padding: 12px 17px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    margin: 0 auto;
+    // margin: 0 auto;
+    display: block;
     // border: 1px solid blue;
 }
 
@@ -40,7 +40,7 @@ nav a {
     // grid-column-end: 3;
     // margin: 0 auto;
     // justify-content: center;
-    // display: block;
+    display: block;
     // position: relative;
     // left: 0;
     // top: 0;
@@ -58,14 +58,14 @@ nav a .nav-icon i {
     align-items: center;
 }
 
-nav #page-links {
+#page-links {
     display: none;
     // border: 1px solid blue;
 }
 
 .active {
     // width: 100%;
-    // display: inline-block;
+    display: inline-block;
     background-color: $primary-nav;
     color: white;
     // right: 0;

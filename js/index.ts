@@ -13,6 +13,15 @@ let showNav = false;
 const toggleNav = () => {
   // do stuff
   console.log("hi");
+  const pgLinks = document.getElementById("page-links");
+  if (pgLinks.style.display === "block") {
+    console.log('on');
+    pgLinks.style.display = "none";
+  } else {
+    console.log('off');
+    pgLinks.style.display = "block";
+  }
+
 }
 
 const init = () => {
@@ -21,8 +30,8 @@ const init = () => {
 
   const iconBtn = document.querySelector("#icon");
   const iconBar = document.querySelector("#iconBar");
+  iconBtn.addEventListener("click", toggleNav);
+  
 }
-
-iconBtn.addEventListener("click", toggleNav);
 
 window.addEventListener("load", init, false);

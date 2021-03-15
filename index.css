@@ -1,0 +1,48 @@
+.page-container {
+  max-width: 480px;
+  margin: auto;
+  max-height: 812px;
+}
+
+nav {
+  overflow: hidden;
+  position: relative;
+  background-color: #232323;
+}
+
+nav a {
+  color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.nav-icon {
+  background-color: #232323;
+  display: block;
+  float: left;
+}
+
+nav a:hover {
+  background-color: #C5C5C5;
+  color: #232323;
+}
+
+nav a .nav-icon i {
+  justify-content: center;
+  align-items: center;
+}
+
+#page-links {
+  display: none;
+}
+
+.active {
+  display: inline-block;
+  background-color: #232323;
+  color: white;
+  text-align: right;
+}
+
+/*# sourceMappingURL=index.css.map */

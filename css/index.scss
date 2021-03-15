@@ -1,0 +1,32 @@
+$primary-nav: #232323;
+$nav-height: 70px;
+$primary-a: #ffffff;
+
+.page-container {
+    max-width: 480px;
+    margin: auto;
+    max-height: 812px;
+    // border: 1px solid red;
+}
+
+nav {
+    // width: 100%;
+    // height: $nav-height;
+    // background-color: $primary-nav;
+    // vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+    background-color: $primary-nav;
+    // border: 1px solid red;
+}
+
+nav #page-links {
+    display: none;
+    border: 1px solid blue;
+}
+
+nav a {
+    color: $primary-a;
+    display: block;
+    border: 1px solid blue;
+}

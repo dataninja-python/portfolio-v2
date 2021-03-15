@@ -1,0 +1,24 @@
+.page-container {
+  max-width: 480px;
+  margin: auto;
+  max-height: 812px;
+}
+
+nav {
+  overflow: hidden;
+  position: relative;
+  background-color: #232323;
+}
+
+nav #page-links {
+  display: none;
+  border: 1px solid blue;
+}
+
+nav a {
+  color: #ffffff;
+  display: block;
+  border: 1px solid blue;
+}
+
+/*# sourceMappingURL=index.css.map */

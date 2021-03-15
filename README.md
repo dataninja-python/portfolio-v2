@@ -1,6 +1,8 @@
 # portfolio-v2
 Designing the second iteration of my portfolio site.
 
+Notes:
+* March 15: after setting up the repository and creating the figma high-fidelity design, finally building out HTML and CSS (using SaSS).
 
 
 
@@ -11,6 +13,7 @@ Techstack
 * Typescript
 * CSS
 * Javascript
+* Figma
 
 
 Sources:

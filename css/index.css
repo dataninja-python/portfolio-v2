@@ -2,45 +2,8 @@
   max-width: 480px;
   margin: auto;
   max-height: 812px;
-}
-
-nav {
-  background-color: #232323;
-  justify-content: center;
-}
-
-nav a {
-  color: #ffffff;
-  display: block;
-  padding: 12px 17px;
-  text-decoration: none;
-  font-size: 17px;
-  margin: 0 auto;
-}
-
-.nav-icon {
-  background-color: #232323;
-  float: left;
-}
-
-nav a:hover {
-  background-color: #C5C5C5;
-  color: #232323;
-}
-
-nav a .nav-icon i {
-  justify-content: center;
-  align-items: center;
-}
-
-nav #page-links {
-  display: none;
-}
-
-.active {
-  background-color: #232323;
-  color: white;
-  text-align: right;
+  background-color: whitesmoke;
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=index.css.map */

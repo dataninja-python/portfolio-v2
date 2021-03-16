@@ -3,13 +3,14 @@ $nav-height: 70px;
 $primary-a: #ffffff;
 $hover-background: #C5C5C5;
 $body-background: whitesmoke;
+$blue-1: #3EABCD;
 
 body {
     // background-color: $body-background;
 }
 
 .page-container {
-    max-width: 480px;
+    max-width: 512px;
     margin: auto;
     max-height: 812px;
     background-color: $body-background;
@@ -33,4 +34,25 @@ body {
     font-size: 17px;
     padding: 14px 16px;
 }
+
+#icon {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    background: $primary-nav;
+}
+
+.navbar-container > a:hover {
+    background-color: $blue-1;
+    color: $primary-a;
+}
+
+// .navbar-container > .home-link {
+//     background-color: $body-background;
+//     color: $primary-nav;
+// }
+
+
+
 

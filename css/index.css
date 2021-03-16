@@ -1,5 +1,5 @@
 .page-container {
-  max-width: 480px;
+  max-width: 512px;
   margin: auto;
   max-height: 812px;
   background-color: whitesmoke;
@@ -22,6 +22,19 @@
   color: #ffffff;
   font-size: 17px;
   padding: 14px 16px;
+}
+
+#icon {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  background: #232323;
+}
+
+.navbar-container > a:hover {
+  background-color: #3EABCD;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -26,3 +26,7 @@ Sources/Inspiration:
 * https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar
 * https://www.geeksforgeeks.org/how-to-convert-the-hamburger-icon-of-navigation-menu-to-x-on-click/
 * https://www.kirupa.com/html5/running_your_code_at_the_right_time.htm
+* https://codepen.io/run-time/pen/VNRBJd
+* https://freefrontend.com/css-speech-bubbles/
+* https://codingislove.com/css-speech-bubbles/
+* https://codepen.io/rikschennink/pen/mjywQb

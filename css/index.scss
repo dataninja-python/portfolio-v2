@@ -14,7 +14,7 @@ body {
 .page-container {
     max-width: 375px;
     margin: 50px auto;
-    min-height: 812px;
+    max-height: 812px;
     background-color: $body-background;
     // border: 0.0075px solid rgb(255, 255, 255, 0.99);
     font-family: $body-font;
@@ -86,6 +86,33 @@ body {
 
 .main-container {
     height: 317px;
+}
+
+.avatar-container {
+    margin-top: 30px;
+    padding-left: 16px;
+}
+
+.avatar-container img {
+    border: none;
+}
+
+.avatar-container img:hover {
+    border: 1px solid $primary-nav;
+    transition: 1s ease-in-out;
+    border-radius: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.avatar {
+    height: 149px;
+    width: 149px;
 }
 
 .footer-container {

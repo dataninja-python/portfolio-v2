@@ -5,7 +5,7 @@ body {
 .page-container {
   max-width: 375px;
   margin: 50px auto;
-  min-height: 812px;
+  max-height: 812px;
   background-color: white;
   font-family: "Lato", sans-serif;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -71,6 +71,33 @@ body {
 
 .main-container {
   height: 317px;
+}
+
+.avatar-container {
+  margin-top: 30px;
+  padding-left: 16px;
+}
+
+.avatar-container img {
+  border: none;
+}
+
+.avatar-container img:hover {
+  border: 1px solid #232323;
+  transition: 1s ease-in-out;
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.avatar {
+  height: 149px;
+  width: 149px;
 }
 
 .footer-container {

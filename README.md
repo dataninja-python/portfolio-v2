@@ -4,12 +4,14 @@ Designing the second iteration of my portfolio site.
 Goal:
 * Create a mobile-focused, unique portfolio design to showcase my current and future work
 
+Todos:
+[] replace pic with resume for download
+
 
 Notes:
 * Mar 11: finished figma high-fidelity design
 * Mar 15: after setting up the repository and creating the figma high-fidelity design, finally building out HTML and CSS (using SaSS).
 * Mar 15: added figma mobile design pdf for front-end guidance
-
 
 
 
@@ -31,4 +33,5 @@ Sources/Inspiration:
 * https://codingislove.com/css-speech-bubbles/
 * https://codepen.io/rikschennink/pen/mjywQb
 * https://www.w3resource.com/html-css-exercise/speech-bubble-answer.php
+* https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
 * 

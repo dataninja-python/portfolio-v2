@@ -103,6 +103,7 @@ body {
   background: #232323;
   left: 100px;
   margin-bottom: 24px;
+  display: none;
 }
 
 #speech-bubble:before {

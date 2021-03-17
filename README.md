@@ -30,3 +30,5 @@ Sources/Inspiration:
 * https://freefrontend.com/css-speech-bubbles/
 * https://codingislove.com/css-speech-bubbles/
 * https://codepen.io/rikschennink/pen/mjywQb
+* https://www.w3resource.com/html-css-exercise/speech-bubble-answer.php
+* 

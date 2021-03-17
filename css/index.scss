@@ -6,6 +6,7 @@ $body-background: rgb(255, 255, 255);
 $blue-1: #3EABCD;
 $header-font: 'Oswald', sans-serif;
 $body-font: 'Lato', sans-serif;
+$blue-2: #5ac4ed;
 
 body {
     background-color: rgba(252, 252, 252, 0.90);
@@ -85,12 +86,13 @@ body {
 }
 
 .main-container {
-    height: 317px;
+    // height: 317px;
 }
 
 .avatar-container {
-    margin-top: 30px;
+    padding-top: 30px;
     padding-left: 16px;
+    padding-bottom: 16px;
 }
 
 .avatar-container img {
@@ -99,7 +101,7 @@ body {
 
 .avatar-container img:hover {
     border: 1px solid $primary-nav;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
     border-radius: 50%;
 }
 
@@ -115,12 +117,73 @@ body {
     width: 149px;
 }
 
+
+#speech-bubble {
+    width: 180px; 
+    height: 60px; 
+    background: $primary-nav;
+    // position: absolute;
+    left:100px;
+    // -moz-border-radius: 10px; 
+    // -webkit-border-radius: 10px; 
+    // border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+#speech-bubble:before {
+    content:"";
+    // position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid $primary-nav;
+    border-bottom: 13px solid transparent;
+    margin: 13px 0 0 0px;
+}
+
+#speech-bubble p {
+    position: relative;
+    margin-top: 0;
+    padding-left: 12px;
+    color: $primary-a;
+}
+
 .footer-container {
     position: sticky;
     background-color: $blue-1;
     // width: 100%;
     // left: 0;
-    height: 220px;
+    height: 200px;
     padding: 16px;
     
+}
+
+.icons-container {
+    position: absolute;
+    right: 0;
+    padding-right: 24px;
+    padding-top: 24px;
+    color: $primary-a;
+}
+
+.i-icons {
+    font-size: 40px;
+}
+
+.attribution {
+    display: inline;
+    font-size: 12px;
+    color: $primary-a;
+}
+
+.copyright-symbol {
+    margin-right: 2px;
+}
+
+.copyright-msg {
+    bottom: 0;
+    position: absolute;
+    color: $primary-a;
+    padding-bottom: 16px;
+    font-size: 12px;
 }

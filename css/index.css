@@ -19,6 +19,7 @@ body {
 
 #page-links {
   display: none;
+  transition: 200ms ease;
 }
 
 .navbar-container a {
@@ -40,6 +41,11 @@ body {
 .navbar-container a:hover {
   background-color: #3EABCD;
   color: #ffffff;
+}
+
+.navbar-container a.home-link {
+  background-color: #C5C5C5;
+  color: #232323;
 }
 
 .nav-spacer {
@@ -75,13 +81,19 @@ body {
   padding-bottom: 16px;
 }
 
+.main-container .avatar-container a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
 .avatar-container img {
   border: none;
 }
 
 .avatar-container img:hover {
   border: 1px solid #232323;
-  transition: 0.5s ease-in-out;
+  transition: 0.33s ease-in-out;
   border-radius: 50%;
 }
 
@@ -104,6 +116,7 @@ body {
   left: 100px;
   margin-bottom: 24px;
   display: none;
+  transition-duration: 200ms ease;
 }
 
 #speech-bubble:before {
@@ -140,6 +153,16 @@ body {
 
 .i-icons {
   font-size: 40px;
+}
+
+.i-icons a {
+  color: #ffffff;
+}
+
+.i-icons:hover {
+  font-size: 32px;
+  padding: 0 0 0 4px;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .attribution {

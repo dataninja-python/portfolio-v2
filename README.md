@@ -12,7 +12,7 @@ Notes:
 * Mar 11: finished figma high-fidelity design
 * Mar 15: after setting up the repository and creating the figma high-fidelity design, finally building out HTML and CSS (using SaSS).
 * Mar 15: added figma mobile design pdf for front-end guidance
-
+* Mar 17: home page nearly completed
 
 
 Techstack

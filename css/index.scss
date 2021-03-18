@@ -186,13 +186,13 @@ body {
 }
 
 .i-icons a {
-    color: $primary-a;
+    color: rgba(134, 20, 20, 0.80);
 }
 
-.i-icons:hover {
-    font-size: 32px;
-    padding: 0 0 0 4px;
-    color: rgb(255, 255, 255, 0.85);
+.i-icons a:hover {
+    font-size: 45px;
+    padding: 0 0 0 5px;
+    color: $primary-a;
 }
 
 .attribution {

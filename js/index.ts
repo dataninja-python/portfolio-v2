@@ -3,15 +3,9 @@
 
 // action items:
 // * select the hamburger object container by class "icon"
-
-
-
-  // * set the default menu display to false to equal default "display:none"
-
-// let showNav = false;
+// * set the default menu display to false to equal default "display:none"
 
 const toggleSpeech = () => {
-  // do stuff
   console.log("speech");
   const speechBubble = document.getElementById("speech-bubble");
   if (speechBubble.style.display === "block") {

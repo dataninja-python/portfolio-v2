@@ -1,0 +1,19 @@
+$primary-nav: #232323;
+$nav-height: 70px;
+$primary-a: #ffffff;
+$hover-background: #C5C5C5;
+$body-background: rgb(255, 255, 255);
+$blue-1: #3EABCD;
+$header-font: 'Oswald', sans-serif;
+$body-font: 'Lato', sans-serif;
+$blue-2: #5ac4ed;
+
+.navbar-container a.home-link {
+    background-color: $primary-nav;
+    color: $primary-a;
+}
+
+.navbar-container a.home-link:hover {
+    background-color: $blue-1;
+    // color: $primary-a;
+}

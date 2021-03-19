@@ -1,0 +1,10 @@
+.navbar-container a.home-link {
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.navbar-container a.home-link:hover {
+  background-color: #3EABCD;
+}
+
+/*# sourceMappingURL=about.css.map */

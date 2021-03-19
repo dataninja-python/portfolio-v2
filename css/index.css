@@ -104,6 +104,10 @@ body {
   width: 50%;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .avatar {
   height: 149px;
   width: 149px;
@@ -156,7 +160,7 @@ body {
 }
 
 .i-icons a {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .i-icons a:hover {

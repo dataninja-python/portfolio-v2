@@ -7,4 +7,40 @@
   background-color: #3EABCD;
 }
 
+.navbar-container a.about-link {
+  background-color: #C5C5C5;
+  color: #232323;
+}
+
+.resume-btn-container {
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.resume-btn-container a {
+  text-decoration: none;
+}
+
+.resume-btn {
+  position: relative;
+  width: 298px;
+  height: 57px;
+  border: 1px solid #232323;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.resume-btn:hover {
+  border: 1px solid #3EABCD;
+  background-color: #3EABCD;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.resume-btn i {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=about.css.map */

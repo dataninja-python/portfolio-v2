@@ -34,4 +34,4 @@ Sources/Inspiration:
 * https://codepen.io/rikschennink/pen/mjywQb
 * https://www.w3resource.com/html-css-exercise/speech-bubble-answer.php
 * https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
-* 
+* https://www.w3schools.com/howto/howto_css_cards.asp

@@ -1,0 +1,56 @@
+$primary-nav: #232323;
+$nav-height: 70px;
+$primary-a: #ffffff;
+$hover-background: #C5C5C5;
+$body-background: rgb(255, 255, 255);
+$blue-1: #3EABCD;
+$header-font: 'Oswald', sans-serif;
+$body-font: 'Lato', sans-serif;
+$blue-2: #5ac4ed;
+
+.navbar-container a.home-link {
+    background-color: $primary-nav;
+    color: $primary-a;
+}
+
+.navbar-container a.home-link:hover {
+    background-color: $blue-1;
+    // color: $primary-a;
+}
+
+.navbar-container a.work-link {
+    background-color: $hover-background;
+    color: $primary-nav;
+}
+
+.work-container {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
+
+.fa-chevron-circle-left {
+    font-size: 32px;
+    padding-right: 32px;
+}
+
+.fa-chevron-circle-right {
+    font-size: 32px;
+    padding-left: 32px;
+}
+
+.fa-chevron-circle-left:hover, .fa-chevron-circle-right:hover {
+    color: $blue-1;
+}
+
+.work-card {
+    // margin: 0 16px 0 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.work-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

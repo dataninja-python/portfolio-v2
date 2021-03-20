@@ -43,4 +43,23 @@
   font-size: 20px;
 }
 
+#tech-grid-container {
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#tech-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 8px;
+}
+
+.grid-img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
 /*# sourceMappingURL=about.css.map */

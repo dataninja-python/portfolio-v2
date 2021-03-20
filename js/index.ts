@@ -1,5 +1,6 @@
-// goal:
+// goals:
 // * open a navigation menu when hamburger is clicked
+// * display a speech bubble when avatar is clicked
 
 // action items:
 // * select the hamburger object container by class "icon"

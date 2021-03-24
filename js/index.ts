@@ -16,7 +16,6 @@ const toggleSpeech = () => {
     console.log('off');
     speechBubble.style.display = "block";
   }
-
 }
 
 const toggleNav = () => {

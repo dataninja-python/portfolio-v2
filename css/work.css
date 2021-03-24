@@ -17,10 +17,13 @@
   width: 250px;
   border: 1px solid green;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
 }
 
 .fa-chevron-circle-left {
   font-size: 32px;
+  align-items: center;
 }
 
 .work-container .work-card {
@@ -29,12 +32,12 @@
   width: 160px;
   height: 190px;
   text-align: center;
-  margin-bottom: 32px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .fa-chevron-circle-right {
   font-size: 32px;
+  align-items: center;
 }
 
 .fa-chevron-circle-left:hover, .fa-chevron-circle-right:hover {
@@ -43,6 +46,28 @@
 
 .work-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+.card-top {
+  display: relative;
+  background-color: #232323;
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  padding-top: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-bottom {
+  padding-top: 10px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=work.css.map */

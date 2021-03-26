@@ -28,7 +28,7 @@ $blue-2: #5ac4ed;
     width: 250px;
     // margin-left: 16px;
     // margin-right: 16px;
-    border: 1px solid green;
+    // border: 1px solid green;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 32px;
@@ -48,15 +48,15 @@ $blue-2: #5ac4ed;
     transition: 0.3s;
     // width: 60%;
     width: 160px;
-    height: 190px;
+    height: 220px;
     // margin-left: 20px;
     // margin-right: 20px;
     // flex-grow: 2;
     text-align: center;
-    // border: 1px solid purple;
+    border: 1px solid rgb($primary-nav, 0.3);
     // justify-content: space-between;
     // margin-bottom: 32px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .fa-chevron-circle-right {
@@ -80,6 +80,7 @@ $blue-2: #5ac4ed;
 .fade {
     animation-name: fade;
     animation-duration: 2.5s;
+    transition-delay: 1s;
 }
 
 .card-top {
@@ -90,11 +91,15 @@ $blue-2: #5ac4ed;
     text-align: center;
     vertical-align: middle;
     color: $primary-a;
-    padding-top: 10px;
-    border-radius: 10px 10px 0 0;
+    padding-top: 12px;
+    border-radius: 8px 8px 0 0;
 }
 
 .card-bottom {
     padding-top: 10px;
     text-align: center;
+}
+
+button {
+    cursor: pointer;
 }

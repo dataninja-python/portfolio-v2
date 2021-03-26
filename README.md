@@ -13,7 +13,10 @@ Notes:
 * Mar 15: after setting up the repository and creating the figma high-fidelity design, finally building out HTML and CSS (using SaSS).
 * Mar 15: added figma mobile design pdf for front-end guidance
 * Mar 17: home page nearly completed
-
+* Mar 18-22: completed home and about pages
+* Mar 24: finished working carousel built from scratch
+* Mar 26: added cards to carousel that link to portfolio projects
+* 
 
 Techstack
 * HTML
@@ -35,3 +38,5 @@ Sources/Inspiration:
 * https://www.w3resource.com/html-css-exercise/speech-bubble-answer.php
 * https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
 * https://www.w3schools.com/howto/howto_css_cards.asp
+* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow
+* https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html

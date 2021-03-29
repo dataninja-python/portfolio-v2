@@ -1,0 +1,19 @@
+.navbar-container a.home-link {
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.navbar-container a.home-link:hover {
+  background-color: #3EABCD;
+}
+
+.navbar-container a.contact-link {
+  background-color: #C5C5C5;
+  color: #232323;
+}
+
+form {
+  padding-bottom: 32px;
+}
+
+/*# sourceMappingURL=contact.css.map */
